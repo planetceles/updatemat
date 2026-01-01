@@ -57,10 +57,14 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-main {
+main img {
+    width: 100%;
+    height: auto;
+}
+/* main {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-}
+} */
 .home {
     background-color: var(--color-highlight);
 }
